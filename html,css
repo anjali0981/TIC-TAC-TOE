@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Best Online Food Delivery Service in India </title>
+    <link rel="stylesheet" href="project2.css">
+</head>
+<body>
+    <nav id="navbar">
+        <div id="logo">
+            <img src="F:\VLC\anjali\WhatsApp Images\IMG_20200428_114328.jpg" alt="">
+            
+        </div>
+         <ul>
+            <li class="item"><a href="#">HOME</a></li>
+            <li class="item"><a href="#">ABOUT US</a></li>
+            <li class="item"><a href="#">SERVICES</a></li>
+            <li class="item"><a href="#">CONTACT US</a></li>
+         </ul>
+    </nav>
+
+    <section id="home">
+        <h1 class="h-primary">Welcome to MyOnlineMeal</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis eaque, quis non consectetur temporibus corrupti? </p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum amet ullam dolorem.</p>
+        <button class="btn">Order Now</button>
+    </section>
+    <section class="service-container">
+        <h1 class="h-primary center">Our Services</h1>
+        <div id="services">
+            <div class="box">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcS8Kdl5E57fSThklOk5Rn5j-O6Qs6mre2ZONg&usqp=CAU" alt="">
+                <h4 class="h-secondary center">Food Ordering</h4>
+                <p class="center">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Assumenda qui reiciendis minus quis sunt consequatur facilis vero iusto. Quibusdam, debitis nulla. Optio, saepe tempore sed qui fuga dolorum eveniet dolorem incidunt recusandae voluptas a, dicta consequatur sequi amet. Quasi illum iusto dolor incidunt debitis? Ipsam molestiae dicta recusandae iure optio odit ipsa omnis, porro tenetur fugit laboriosam nemo aliquid vitae.
+                </p>
+            </div>
+            <div class="box">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcR11du2IQYkQx_rCnkbYQo_oB7QU7YyBB9o-A&usqp=CAU" alt="">
+                <h2 class="h-secondary center">Food Catering</h2>
+                <p class="center">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Assumenda qui reiciendis minus quis sunt consequatur facilis vero iusto. Quibusdam, debitis nulla. Optio, saepe tempore sed qui fuga dolorum eveniet dolorem incidunt recusandae voluptas a, dicta consequatur sequi amet. Quasi illum iusto dolor incidunt debitis? Ipsam molestiae dicta recusandae iure optio odit ipsa omnis, porro tenetur fugit laboriosam nemo aliquid vitae.
+                </p>
+            </div>
+            <div class="box">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQzYb34u0feB6fW8iDHQ4zBKpi3LwTgxaWAZw&usqp=CAU" alt="">
+                <h2 class="h-secondary center">Bulk Ordering</h2>
+                <p class="center">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Assumenda qui reiciendis minus quis sunt consequatur facilis vero iusto. Quibusdam, debitis nulla. Optio, saepe tempore sed qui fuga dolorum eveniet dolorem incidunt recusandae voluptas a, dicta consequatur sequi amet. Quasi illum iusto dolor incidunt debitis? Ipsam molestiae dicta recusandae iure optio odit ipsa omnis, porro tenetur fugit laboriosam nemo aliquid vitae.
+                </p>
+            </div>
+       </div>
+    </section>
+    <section id="client-section">
+    <center> <h1 class="h-prrimary">Our Clients</h1></center> 
+        <div id="client">
+            <div class="client-item">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTbyLLk-VGDpKDiJuQGXqkB5haNXTRlWMUEzw&usqp=CAU"alt="">
+            </div>
+            <div class="client-item">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRqvCE7bC9rD99ppNAEtKciyuE5G74KzfyfYQ&usqp=CAU"alt="">
+            </div>
+            <div class="client-item">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSHzEFZmR8ReWYeLiIsG__cIUezbONicJ47-g&usqp=CAU"alt="">
+            </div>
+            <div class="client-item">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQr4nZ8E2GS-t_B9HDhb8Te3f6MMbyhZ_jsUA&usqp=CAU"alt="">
+            </div>
+        </div>
+    </section>
+    <section id="contact">
+    <center> <h1 class="h-primarycenter">Contact Us</h1></center>
+      <div class="contact-box">
+          <form action="">
+           <center>    <div class="form-group">
+                    <label for="name">Name: </label>
+                    <input type="text" name="name" id="name"placeholder="Enter Your Name">
+                </div>
+                <div class="form-group">
+                    <label for="phone">Phone No.: </label>
+                    <input type="phone" name="name" id="phone"placeholder="Enter Your Phone">
+                </div>
+                <div class="form-group">
+                    <label for="email">Email: </label>
+                    <input type="email" name="name" id="email"placeholder="Enter Your Email">
+                </div>
+                <div class="form-group">
+                    <label for="message">Message: </label>
+                    <textarea name="message" id="message"col="20" rows="10"></textarea>
+                </div>
+            </center>
+            </form>
+        </div>
+    </section>
+    <footer>
+        <div class="center">
+            Copyright &copy; www.myOnlineMeal.com.All right reserved!
+        </div>
+    </footer>
+</body>
+</html>
